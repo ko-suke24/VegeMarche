@@ -19,6 +19,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0.0.beta2'
   gem 'spring-commands-rspec'
   gem 'rails-controller-testing'
+  gem 'rubocop-airbnb'
 end
 
 group :development do
