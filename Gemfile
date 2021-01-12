@@ -20,6 +20,7 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'rails-controller-testing'
   gem 'rubocop-airbnb'
+  gem "factory_bot_rails", "~> 4.10.0"
 end
 
 group :development do
@@ -39,3 +40,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'faker'

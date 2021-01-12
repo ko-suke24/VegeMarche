@@ -1,6 +1,10 @@
 <header class="navbar navbar-fixed-top">
  <div class="container">
-   <%= link_to(image_tag("header_logo.jpeg", :alt => ""), root_url, id: 'logo') %>
+   <%
+=begin%>
+ <%= link_to(image_tag("header_logo.jpeg", :alt => ""), root_url, id: 'logo') %> 
+<%
+=end%>
    <nav>
      <ul class="nav navbar-nav navbar-right">
        <li><%= link_to 'ベジマルとは？', about_path %></li>

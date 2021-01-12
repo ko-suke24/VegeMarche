@@ -11,6 +11,7 @@ ja:
     attributes:
       user:
         id: ID
+        name: ニックネーム
         nickname: ニックネーム
         email: メールアドレス
         password: パスワード

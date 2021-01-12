@@ -5,8 +5,8 @@
     <%= form_with model: @user, local: true do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
       <div class = 'form-group'>
-        <%= f.label :nickname %>
-        <%= f.text_field :nickname, class: 'form-control', id: 'user_nickname' %>
+        <%= f.label :name %>
+        <%= f.text_field :name, class: 'form-control', id: 'user_name' %>
       </div>
       <div class = 'form-group'>
         <%= f.label :email %>
